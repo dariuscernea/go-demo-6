@@ -3,7 +3,7 @@ pipeline {
     label "jenkins-go"
   }
   environment {
-    ORG = 'vfarcic'
+    ORG = 'dariuscernea'
     APP_NAME = 'go-demo-6'
     CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
   }
